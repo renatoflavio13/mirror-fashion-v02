@@ -1,0 +1,68 @@
+/* Base */
+
+* {padding: 0;margin: 0;box-sizing: border-box}
+html{font-size: 62,50%;}
+body{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Verdana', sans-serif;color: #333333;}
+.container{width: 940px; margin: 0 auto;}
+
+/* Header */
+
+.cabecalho{
+    position: relative;
+    top: 0.5rem;
+}
+
+.cabecalho p{
+    background: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    top: 0;right: 0;
+    font-size: 1.0rem;
+    padding-right: 1.9rem;
+    text-align: right;
+    position: absolute;
+    width: 20%;
+}
+
+.cabecalho nav{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.img-logocabecalho{
+    display: inline-block;
+}
+
+.lista-cabecalho{
+    font-size: 1.1rem;
+    list-style: none;
+    text-align: right;
+}
+
+.lista-cabecalho li{
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+/* Footer */
+
+footer{
+    background: url(../img/fundo-rodape.png);
+    padding: 1.5rem 0 1rem;  
+}
+
+.rodape{
+    position: relative;
+}
+
+.lista-rodape{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.lista-rodape li{
+    display: inline-block;
+    margin-left: 2rem;
+}

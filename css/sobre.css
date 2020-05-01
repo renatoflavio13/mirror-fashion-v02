@@ -1,0 +1,42 @@
+/* sobre.html */
+
+.conteudo-principal p  {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-indent: 1rem;
+    text-align: justify;
+}
+
+.conteudo-principal figure{
+    background-color: #cccccc;
+    font-style: italic;
+    text-align: center;
+    padding: 0.5rem 0;
+    display: block;
+}
+
+.img-familiapelho{
+    width: 33%;
+    float: right;
+    margin: 0 1.5rem 0.5rem;
+}
+.img-centrodistribuicao{
+    width: 60%;
+    margin: 1.5rem auto;
+}
+
+.titulo-principal{
+    font-size: 1.8rem;
+    border-bottom: 0.1rem solid #333333;
+    margin: 2.5rem 0;
+    text-indent: 1rem;
+}
+
+.lista-diferenciais{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-indent: 1rem;
+    text-align: justify;
+    list-style: circle;
+}
+
